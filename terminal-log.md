@@ -1,3 +1,4 @@
 pwd
 mkdir
-cd
+cd ~/
+cd ..
