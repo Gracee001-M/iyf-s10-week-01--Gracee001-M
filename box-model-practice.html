@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Box Model Practice</title>
+    <style>
+        
+        .demo-box {
+            background-color: lightblue; /* content */
+            padding: 20px;               /* padding */
+            border: 5px solid navy;      /* border */
+            margin: 20px;                /* margin */
+            width: 200px;
+        }
+
+        */
+        .broken-box {
+            width: 300px;
+            padding: 20px;
+            border: none;
+            background: peachpuff;
+            box-sizing: border-box; 
+            margin: 20px 0;
+        }
+        .card {
+            width: 300px;                 
+            padding: 20px;               
+            border: 1px solid gray;
+            box-sizing: border-box;       
+            margin-top: 30px;
+            font-family: Arial, sans-serif;
+        }
+
+        .card img {
+            width: 100%;
+            display: block;
+            margin-bottom: 15px;
+        }
+
+        .card h2 {
+            margin-bottom: 15px;
+            font-size: 20px;
+        }
+
+        .card p {
+            margin-bottom: 20px;
+            line-height: 1.4;
+        }
+
+        .card button {
+            padding: 10px 15px;
+            background: navy;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Box Model Practice</h1>
+
+    
+    <h2>Exercise 1: Box Model Visualization</h2>
+    <div class="demo-box">Content Area</div>
+    <div class="demo-box">Content Area</div>
+    <div class="demo-box">Content Area</div>
+    <div class="demo-box">Content Area</div>
+
+    
+    <h2>Exercise 2: Debug the Layout</h2>
+    <div class="broken-box">This box is now exactly 300px wide.</div>
+
+    <h2>Exercise 3: Card Component</h2>
+    <div class="card">
+        <img src="https://via.placeholder.com/300x150" alt="Card Image">
+        <h2>Card Title</h2>
+        <p>
+            This is a simple card component demonstrating the CSS box model.
+            The spacing is controlled using padding, margins, and borders.
+        </p>
+        <button>Learn More</button>
+    </div>
+
+</body>
+</html>
