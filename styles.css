@@ -95,27 +95,26 @@ small {
   --color-text: #111827;
   --color-muted: #6B7280;
 
-  /* Variations */
+  
   --color-primary-light: #60A5FA;
   --color-primary-dark: #1E40AF;
 }
-/* Background */
+
 body {
   background-color: var(--color-background);
   color: var(--color-text);
 }
 
-/* Headings */
+
 h1, h2, h3 {
   color: var(--color-primary-dark);
 }
 
-/* Body text */
 p {
   color: var(--color-text);
 }
 
-/* Links */
+
 a {
   color: var(--color-primary);
   text-decoration: none;
@@ -125,7 +124,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Buttons */
+
 button {
   background-color: var(--color-primary);
   color: #fff;
@@ -139,7 +138,74 @@ button:hover {
   background-color: var(--color-primary-dark);
 }
 
-/* Muted text */
 small, .muted {
   color: var(--color-muted);
+}
+/* 🟡 Exercise 1: Navigation Bar */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Logo left, links right */
+  align-items: center;            /* Vertically centered */
+  padding: 1rem;
+  background: var(--color-background);
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem; /* spacing between links */
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--color-primary);
+}
+.nav-links a:hover {
+  color: var(--color-primary-dark);
+}
+
+/* 🟡 Exercise 2: Card Row */
+.card-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-evenly;
+  flex-wrap: wrap; /* allows wrapping on smaller screens */
+  margin: 2rem 0;
+}
+
+.card {
+  flex: 1;                /* equal width distribution */
+  min-width: 250px;       /* ensures wrapping */
+  height: 200px;          /* equal height */
+  background: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+/* 🟡 Exercise 3: Footer Layout */
+.footer {
+  background: #222;
+  color: #fff;
+  padding: 2rem;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /* responsive */
+  margin-bottom: 1rem;
+}
+
+.footer-col {
+  flex: 1;
+  min-width: 200px;
+  padding: 1rem;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #444;
+  padding-top: 1rem;
 }
