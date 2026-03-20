@@ -347,4 +347,33 @@ nav ul {
   }
 }
 
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Links */
+a:hover {
+  color: var(--color-primary);
+}
+
+.card:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.button, a, .card {
+  transition: all 0.3s ease;
+}
+
+a:focus, button:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 
