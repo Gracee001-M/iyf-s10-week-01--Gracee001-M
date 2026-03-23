@@ -1,5 +1,5 @@
 # iyf-s10-week-01--Gracee001-M
-# Your Name - Week 03 Project
+# Grace001-M - Week 03 Project
 
 Brief description of your project and what you learned this week.
 
