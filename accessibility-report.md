@@ -5,7 +5,7 @@ Element Issue Details
 
 <h> headings Improper hierarchy
 
-Current headings go h1 → h2 → h3 → h4. This is acceptable, but <h4> is used for contact info; semantic grouping could be improved.<a>
+Current headings go h1 → h2 → h3 → h4. This is acceptable,but <h4> is used for contact info; semantic grouping could be improved.<a>
 link
 
 Non-descriptive link textLink text is "Send me an email" but the HTML is broken: missing closing quote and angle bracket.<html>
