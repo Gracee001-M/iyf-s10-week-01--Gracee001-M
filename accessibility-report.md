@@ -1,16 +1,25 @@
 1. Issues Found
 Element Issue Details
+
 <img>Missing No images currently, but if added, must include alt text.
+
 <h> headings Improper hierarchy
+
 Current headings go h1 → h2 → h3 → h4. This is acceptable, but <h4> is used for contact info; semantic grouping could be improved.<a>
 link
+
 Non-descriptive link textLink text is "Send me an email" but the HTML is broken: missing closing quote and angle bracket.<html>
 tag
+
  Language not set The code has lang="en" correctly — ✅ good.
+ 
 Forms
 No labels
+
 No form inputs are present.
+
  No issues here.
+ 
 OtherContrast / readability
 Lighthouse may flag contrast if custom colors are added. Currently not an issue with default black on white.
 
